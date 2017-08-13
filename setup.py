@@ -33,8 +33,8 @@ lambda_keywords = 'AWS Lambda CodeBuild'
 lambda_license = 'APL 2.0'
 
 # Who is the author?
-lambda_author='Joseph Wortmann'
-lambda_author_email='jwortmann@quinovas.com'
+lambda_author = 'Joseph Wortmann'
+lambda_author_email = 'jwortmann@quinovas.com'
 
 # List run-time dependencies here.  These will be installed by pip when
 # your project is installed. For an analysis of "install_requires" vs pip's
@@ -54,7 +54,7 @@ setup(
     description=lambda_description,
     long_description=long_description,
 
-    url='',
+    url='https://github.com/QuiNovas/codebuild-runner',
 
     author=lambda_author,
     author_email=lambda_author_email,
