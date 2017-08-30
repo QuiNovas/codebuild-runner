@@ -16,7 +16,7 @@ lambda_name = 'codebuild-runner'
 # Versions should comply with PEP440.  For a discussion on single-sourcing
 # the version across setup.py and the project code, see
 # https://packaging.python.org/en/latest/single_source_version.html
-lambda_version = '0.1.0'
+lambda_version = '0.1.1'
 
 lambda_description = 'AWS Lambda that runs a specified AWS CodeBuild project'
 
@@ -24,7 +24,7 @@ lambda_description = 'AWS Lambda that runs a specified AWS CodeBuild project'
 #   3 - Alpha
 #   4 - Beta
 #   5 - Production/Stable
-lambda_dev_status = '3 - Alpha'
+lambda_dev_status = '4 - Beta'
 
 # What does your project relate to?
 lambda_keywords = 'AWS Lambda CodeBuild'
