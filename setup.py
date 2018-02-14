@@ -84,5 +84,5 @@ setup(
 
     lambda_package='src/lambda_function',
 
-    setup_requires=['lambda-setuptools', 'pypandoc']
+    setup_requires=['lambda-setuptools']
 )
