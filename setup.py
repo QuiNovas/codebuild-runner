@@ -1,5 +1,3 @@
-import pypandoc
-
 # To use a consistent encoding
 from codecs import open
 from os import path
@@ -9,7 +7,8 @@ from setuptools import setup, find_packages, Command
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-long_description = pypandoc.convert('README.md', 'rst', format='markdown')
+with open(path.join(here, 'README.md'), encoding='utf-8') as readme:
+    long_description = readme.read()
 
 lambda_name = 'codebuild-runner'
 
@@ -85,5 +84,5 @@ setup(
 
     lambda_package='src/lambda_function',
 
-    setup_requires=['lambda-setuptools', 'pypandoc']
+    setup_requires=['lambda-setuptools']
 )
